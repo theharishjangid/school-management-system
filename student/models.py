@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 
 class Student(models.Model):
     first_name = models.TextField(verbose_name='First name', max_length=20)

@@ -25,6 +25,8 @@ SECRET_KEY = 'a^0s$w5lr7b^v%6bm310*v0(@&c4r)!w9azl)ksjl_yjanae&d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+REST_USE_JWT = True
+
 ALLOWED_HOSTS = []
 
 
@@ -40,6 +42,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'student',
+    'rest_auth',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
